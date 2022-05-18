@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  margin: auto;
+  margin-top: 20px;
+  height: 380px;
+  width: 250px;
+  font-size: 80px;
+  padding: 10px;
+  padding-top: 120px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.top-card {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 80px;
+}
+
+.bot-card {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  font-size: 80px;
+}
+
+.boca-arriba {
+  transform: rotate(180deg);
+}
